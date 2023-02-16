@@ -1,8 +1,8 @@
 # Robson
-Robson is a simple LKM rootkit that uses the Linux kernel's kprobes tracing feature as a hooking mechanism.
+Robson is a simple Linux Kernel Module (LKM) rootkit that uses the kernel's kprobes tracing feature as a hooking mechanism. This rootkit utilizes performance tracing mechanisms that allows it to gain privileged access to the kernel and its functions without using other common methods.
 
 # Disclaimer
-This is a proof-of-concept rootkit and should not be used in a production environment. It is not intended to be used maliciously, and the author is not responsible for any damage caused by the use of this software.
+It is important to note that this is a proof-of-concept rootkit and should not be used in a production environment. As such, the author of this software cannot be held responsible for any damage incurred through the use of this rootkit. This rootkit is mainly intended for educational and research purposes, and should be treated as such.
 
 # Usage
 To compile the rootkit, simply run `make`. To load the rootkit, run `insmod robson.ko`.
